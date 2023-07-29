@@ -1,0 +1,170 @@
+"""For sikl operatoriga oid masalalar"""
+
+# For1
+# k=int(input())
+# n=int(input())
+# for i in range(n):
+#     print(k)
+
+# For2
+# a=int(input())
+# b=int(input())
+# h=0
+# for i in range(a-1, b+1):
+#     print(i)
+#     h+=1
+# print(h,"ta son bor")
+
+#  For3
+# a=int(input())
+# b=int(input())
+# for i in range(b-1,a,-1):
+#     if i!=a+1:
+#         print(i,end="")
+#     else:
+#         print(i)
+# print(b-a-1)
+
+# For4
+# a=int(input())
+# for i in range(11):
+#     print(a*i)
+
+
+    # Nimadir
+# a=input()
+# for i in range(int(a)+1):
+#     print(a*i)
+
+
+# For5
+# a=int(input())
+# list1=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+# for i in list1:
+#     print(a*i)
+
+# For6
+# a=int(input())
+# list1=[1.2 , 1.4, 1.6, 1.8, 2]
+# for i in list1:
+#     print(a*i)
+
+
+"""
+for - numbers, datas (dict, list, functions)
+
+for i - forga tegishli o'zgaruvchi
+in range - qaysidir oraliqqa tegishli malumot
+range - oraliq(faqat sonli malumotlar bilan ishlaydi) 1/10. (10) - 0 dan boshlab 9 gacha bo'lgan raqamlarni chaqiradi
+
+for i in range(10):
+    print(i**2)
+
+for i in range(1,20,2):
+    if i == 5:
+        continue
+    print(i)
+
+
+list = ['apple','cherry','banana']
+for a in list:
+    print(a, "fruit")
+"""
+
+# For7
+# a=int(input())
+# b=int(input())
+# h=0
+# for i in range(a,b):
+#     h+=i
+# print(h)
+
+# For8
+# a=int(input())
+# b=int(input())
+# h=1
+# for i in range(a,b+1):
+#     h*=i
+# print(h)               
+
+# For9                                          
+# a=int(input())
+# b=int(input())
+# h=0
+
+# for i in range(a,b+1):
+#     kvadrat=i**2
+#     h+=kvadrat
+#     print(i)
+# print("Yig'indi =", h)
+
+# For10               
+# n=int(input())
+# h=0
+# for i in range(1,n):
+#     h+=1.1+i*0.1
+# print(h)                                         9+16+
+    
+# For11
+# n=int(input())
+# h=0
+# for i in range(1,n):
+#     h+=i**2+(1+i)**2+(2+i)**2
+# print(h)
+
+# For12
+n=int(input())
+h=1
+for i in range(1,n):
+    h+=1.1*(1.1+i)*((n-1.1)+i)
+    print(h)
+print(h)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
